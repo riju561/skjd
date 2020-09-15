@@ -1,7 +1,55 @@
 
-  
+ * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial;
+            margin: 0;
+            font-size: 20px;
+        }
+        .icon {
 
-#box1{
-display: flex;
-  flex-direction: column;
-}
+    height: 30px;
+    width: 30px;
+    
+        } 
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .side {
+            flex: 24%;
+            background-color: white;
+            padding: 20px;
+            border-right: 5px;
+            border-color: black;
+        }
+       
+        .main {
+            flex: 50%;
+            background-color: white;
+            padding: 20px;
+        }
+        .button{
+            background-color:skyblue;
+            color: white;
+            border-radius: 50px;
+            width: 250px;
+        }
+        .border{
+            border-right: 5px solid black;
+
+            height: 100%;
+        }
+        .button2{
+            background-color:skyblue;
+            color: white;
+            border-radius: 50px;
+            float: right;
+        }
+      .card{
+          background-color: grey;
+          padding:20px;
+          margin-top: 10px;
+          border-radius: 50px;
+      }
